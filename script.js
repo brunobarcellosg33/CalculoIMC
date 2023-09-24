@@ -10,6 +10,7 @@ const form = document.querySelector('#formulario');
 
         if (!altura) {
             setResultado('Altura inválida', false);
+            return;
         } 
 
         if (!peso) {
